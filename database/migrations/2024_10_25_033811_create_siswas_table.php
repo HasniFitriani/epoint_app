@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('id_user');
             $table->string('image');
-            $table->bigInter('nis');
+            $table->bigInteger('nis');
             $table->string('tingkatan');
             $table->string('jurusan');
             $table->string('kelas');
